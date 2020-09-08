@@ -2,7 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: s-ingress
-  annotations: 
+  annotations:
   ## Untuk menaikan batas upload file
   nginx.org/client-max-body-size: "10m"
   ## Memaksa jalan di https
